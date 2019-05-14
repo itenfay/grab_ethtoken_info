@@ -1,3 +1,8 @@
+//
+// Created by dyf on 2018/9/6.
+// Copyright (c) 2018 dyf.
+//
+
 /// [HtmlConverter] convert a paragraph of HTML text into simple standard html.
 class HtmlConverter {
   String _source;

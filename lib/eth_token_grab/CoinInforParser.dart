@@ -1,3 +1,8 @@
+//
+// Created by dyf on 2018/9/7.
+// Copyright (c) 2018 dyf.
+//
+
 import 'package:html/parser.dart' as html;
 
 import './CoinInforModel.dart';

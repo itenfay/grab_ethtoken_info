@@ -1,3 +1,8 @@
+//
+// Created by dyf on 2018/9/6.
+// Copyright (c) 2018 dyf.
+//
+
 /// Defines a model for the token holdings.
 class EthTokenholdingsModel {
   String address;

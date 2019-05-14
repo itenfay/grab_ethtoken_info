@@ -1,3 +1,8 @@
+//
+// Created by dyf on 2018/9/7.
+// Copyright (c) 2018 dyf.
+//
+
 /// Defines a model for the coin.
 @Deprecated('Please Use EthTokenholdingsModel')
 class CoinInforModel {

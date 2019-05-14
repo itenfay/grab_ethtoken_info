@@ -1,3 +1,8 @@
+//
+// Created by dyf on 2018/9/7.
+// Copyright (c) 2018 dyf.
+//
+
 import 'package:flutter/material.dart';
 
 import '../db/EthTokensProvider.dart';
