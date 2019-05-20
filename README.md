@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-3. Fetcth data、Create page route and display information for all of tokens.
+3. Fetcth data, Create page route and display the information for all of tokens.
 ```dart
 class _MyHomePageState extends State<MyHomePage> {
     int _counter = 0;
@@ -99,14 +99,14 @@ class _MyHomePageState extends State<MyHomePage> {
     }
 
     void _incrementCounter() {
-        // setState(() {
-        //   // This call to setState tells the Flutter framework that something has
-        //   // changed in this State, which causes it to rerun the build method below
-        //   // so that the display can reflect the updated values. If we changed
-        //   // _counter without calling setState(), then the build method would not be
-        //   // called again, and so nothing would appear to happen.
-        //   _counter++;
-        // });
+        setState(() {
+           // This call to setState tells the Flutter framework that something has
+           // changed in this State, which causes it to rerun the build method below
+           // so that the display can reflect the updated values. If we changed
+           // _counter without calling setState(), then the build method would not be
+           // called again, and so nothing would appear to happen.
+           _counter++;
+        });
         if (_data.isNotEmpty) {
             EthTokenParser.parse(_data).then<bool>((finished){
                 if (finished) {
