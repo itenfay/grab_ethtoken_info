@@ -1,11 +1,11 @@
-[搜到此项目的同学，希望给此项目一个star，激历我更好的创作。](https://github.com/dgynfi/dart_crypto)
+[搜到此项目的同学，希望给此项目一个star，激历我更好的创作。](https://github.com/dgynfi/grab-ethtoken-info)
 
 # 技术交流群
 
 欢迎加入技术交流群(群号:155353383) ，一起探讨技术问题。<br>
-![群号:155353383](https://github.com/dgynfi/grab_ethtoken_info/raw/master/images/qq155353383.jpg)
+![群号:155353383](https://github.com/dgynfi/grab-ethtoken-info/raw/master/images/qq155353383.jpg)
 
-# grab_ethtoken_info
+# grab-ethtoken-info
 
 A Flutter project based on flutter_macos_v0.5.8-dev. Fetch the information of all of token for the wallet address that includes address, name, balance, symbol, value.
 
