@@ -14,7 +14,7 @@
 ## grab_ethtoken_info
 
 - A Flutter project based on flutter_macos_v0.5.8-dev. 
-- Dart & Ethereum & Blockchain (以太坊 & 区块链)。爬取 etherscan 的一个钱包地址的所有 token 信息( address, name, balance, symbol, value)，并编写界面进行展示。
+- Ethereum & Blockchain (以太坊 & 区块链)。用 dart 语言开发，爬取 etherscan 的任意一个钱包地址的所有 token 信息( address, name, balance, symbol, value )，并编写界面进行展示。
 
 ## Getting Started
 
