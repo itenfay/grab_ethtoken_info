@@ -1,22 +1,24 @@
 [如果你觉得能帮助到你，请给一颗小星星。谢谢！(If you think it can help you, please give it a star. Thanks!)](https://github.com/dgynfi/grab_ethtoken_info)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
-[![Support](https://img.shields.io/badge/support-Flutter%20|%20Blockchain%20|%20iOS%20|%20Android-blue.svg?style=flat)](https://pub.flutter-io.cn)&nbsp;
-[![Build Status](https://travis-ci.org/dgynfi/grab_ethtoken_info.svg?branch=master)](https://travis-ci.org/dgynfi/grab_ethtoken_info)
+[![Support](https://img.shields.io/badge/support-iOS%20|%20Android-blue.svg?style=flat)](https://pub.flutter-io.cn)&nbsp;
 
 ## 技术交流群(群号:155353383) 
 
-欢迎加入技术交流群，一起探讨技术问题。<br />
-![](https://github.com/dgynfi/grab_ethtoken_info/raw/master/images/qq155353383.jpg)
+- 欢迎加入技术交流群，一起探讨技术问题。
+
+<div align=left>
+&emsp; <img src="https://github.com/dgynfi/grab_ethtoken_info/raw/master/images/qq155353383.jpg" width="20%" />
+</div>
 
 ## grab_ethtoken_info
 
 - A Flutter project based on flutter_macos_v0.5.8-dev. 
-- Dart & Ethereum & Blockchain (以太坊 & 区块链)。爬取etherscan的一个钱包地址的所有token信息( address, name, balance, symbol, value)，并编写界面进行展示。
+- Dart & Ethereum & Blockchain (以太坊 & 区块链)。爬取 etherscan 的一个钱包地址的所有 token 信息( address, name, balance, symbol, value)，并编写界面进行展示。
 
 ## Getting Started
 
-For help getting started with Flutter, view our online <br />
+&emsp; For help getting started with Flutter, view our online <br />
 1. [Documentation](https://flutter.io/) <br />
 2. [Flutter中文网](https://flutterchina.club) <br />
 3. [Flutter SDK Archive](https://flutter.io/sdk-archive/#macos) <br />
@@ -26,6 +28,7 @@ For help getting started with Flutter, view our online <br />
 ## Usage
 
 1. Import the dart files.
+
 ```dart
 import './network/http_utils.dart';
 import './eth_token_grab/EthTokensDisplay.dart';
@@ -38,6 +41,7 @@ import './eth_token_grab/AppConfigurator.dart';
 ```
 
 2. Open the databases.
+
 ```dart
 void openTokenholdingsDB() async { 
     EthTokenholdingsProvider.shared.open().then<bool>((isOpen){
@@ -71,6 +75,7 @@ class MyApp extends StatelessWidget {
 ```
 
 3. Fetcth data, Create page route and display the information for all of tokens.
+
 ```dart
 class _MyHomePageState extends State<MyHomePage> {
     int _counter = 0;
