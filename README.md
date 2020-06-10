@@ -3,31 +3,34 @@
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%20|%20Android-blue.svg?style=flat)](https://pub.flutter-io.cn)&nbsp;
 
-## 技术交流群(群号:155353383) 
 
-- 欢迎加入技术交流群，一起探讨技术问题。
+## Group(ID:155353383) 
 
 <div align=left>
 &emsp; <img src="https://github.com/dgynfi/grab_ethtoken_info/raw/master/images/qq155353383.jpg" width="20%" />
 </div>
 
+
 ## grab_ethtoken_info
 
-- A Flutter project based on flutter_macos_v0.5.8-dev. 
-- Ethereum & Blockchain (以太坊 & 区块链)。用 dart 语言开发，爬取 etherscan 的任意一个钱包地址的所有 token 信息( address, name, balance, symbol, value )，并编写界面进行展示。
+- This Flutter project is developed with Dart language based on flutter_macos_v0.5.8-dev. 
+- 抓取以太坊区块链 (Ethereum Blockchain) etherscan 上任意一个钱包地址的所有token信息 (Address, Name, Balance, Symbol, Value)，并编写界面进行展示。
+
 
 ## Getting Started
 
-&emsp; For help getting started with Flutter, view our online <br />
-1. [Documentation](https://flutter.io/) <br />
+For help getting started with Flutter, view our online <br />
+
+1. [Flutter Documentation](https://flutter.io/) <br />
 2. [Flutter中文网](https://flutterchina.club) <br />
 3. [Flutter SDK Archive](https://flutter.io/sdk-archive/#macos) <br />
 4. [Dart Packages](https://pub.flutter-io.cn) <br />
 5. [Dart2 中文文档](https://www.kancloud.cn/marswill/dark2_document/709087) <br />
 
+
 ## Usage
 
-1. Import the dart files.
+- 1.Import dart files.
 
 ```dart
 import './network/http_utils.dart';
@@ -40,7 +43,7 @@ import './eth_token_grab/EthTokenholdingsParser.dart';
 import './eth_token_grab/AppConfigurator.dart';
 ```
 
-2. Open the databases.
+- 2.Open the databases.
 
 ```dart
 void openTokenholdingsDB() async { 
@@ -74,7 +77,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-3. Fetcth data, Create page route and display the information for all of tokens.
+- 3.Fetcth data, Create page route and display the information for all of tokens.
 
 ```dart
 class _MyHomePageState extends State<MyHomePage> {
@@ -176,3 +179,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
 }
 ````
+
+## Feedback is welcome
+
+If you notice any issue, got stuck or just want to chat feel free to create an issue. I will be happy to help you.
