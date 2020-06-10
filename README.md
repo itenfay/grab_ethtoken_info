@@ -14,7 +14,7 @@
 ## grab_ethtoken_info
 
 - This Flutter project is developed with Dart language based on flutter_macos_v0.5.8-dev. 
-- 抓取以太坊区块链 (Ethereum Blockchain) etherscan 上任意一个钱包地址的所有token信息 (Address, Name, Balance, Symbol, Value)，并编写界面进行展示。
+- 从以太坊区块链 (Ethereum Blockchain) etherscan 上抓取任意一个钱包地址的所有token信息 (Address, Name, Balance, Symbol, Value)，并编写界面进行展示。
 
 
 ## Getting Started
@@ -30,7 +30,7 @@ For help getting started with Flutter, view our online <br />
 
 ## Usage
 
-- 1.Import dart files.
+- Import Dart Files.
 
 ```dart
 import './network/http_utils.dart';
@@ -43,7 +43,7 @@ import './eth_token_grab/EthTokenholdingsParser.dart';
 import './eth_token_grab/AppConfigurator.dart';
 ```
 
-- 2.Open the databases.
+- Open Databases.
 
 ```dart
 void openTokenholdingsDB() async { 
@@ -77,7 +77,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-- 3.Fetcth data, Create page route and display the information for all of tokens.
+- Fetcth data, Create page route and Display the information of all tokens.
 
 ```dart
 class _MyHomePageState extends State<MyHomePage> {
