@@ -27,8 +27,31 @@ For help getting started with Flutter, view our online <br />
 4. [Dart Packages](https://pub.flutter-io.cn) <br />
 5. [Dart2 中文文档](https://www.kancloud.cn/marswill/dark2_document/709087) <br />
 
+## Structure
 
-## Usage
+- Network
+  - [http_utils](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/network/http_utils.dart) - A HTTP tool to receive data, download and upload files, etc.
+
+- DB
+  - [EthTokenholdingsProvider](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/db/EthTokenholdingsProvider.dart)
+  - [EthTokensProvider](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/db/EthTokensProvider.dart)
+
+- Utils
+ - [HtmlConverter](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/HtmlConverter.dart) - Converts a paragraph of HTML text into simple standard html.
+ - [ExtendedUtility](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/ExtendedUtility.dart) - Extended Utilities.
+
+- ETH Token
+ - [AppConfigurator](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/AppConfigurator.dart)
+ - [EthTokensDisplay](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokensDisplay.dart) - Display UI for tokens.
+ - [EthAddNewTokens](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthAddNewTokens.dart) - Display UI for Adding new tokens.
+ - [EthTokenholdingsDataRequest](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenholdingsDataRequest.dart) - Get data from tokenholdings service.
+ - [EthTokenholdingsModel](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenholdingsModel.dart) - A model for the token holdings.
+ - [EthTokenholdingsParser](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenholdingsParser.dart) - Parsing data that comes from tokenholdings service.
+ - [EthTokenModel](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenModel.dart)
+ - [EthTokenParser](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenParser.dart)
+
+
+## Display UI
 
 - Import Dart Files.
 
