@@ -8,7 +8,7 @@
 ## Group(ID:155353383) 
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/grab_ethtoken_info/raw/master/images/qq155353383.jpg" width="20%" />
+&emsp; <img src="https://github.com/dgynfi/grab_ethtoken_info/raw/master/images/qq155353383.jpg" width="30%" />
 </div>
 
 
