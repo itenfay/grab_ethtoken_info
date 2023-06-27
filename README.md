@@ -1,26 +1,22 @@
-如果此项目能帮助到你，就请你给[一颗星](https://github.com/dgynfi/grab_ethtoken_info)。谢谢！(If this project can help you, please give it [a star](https://github.com/dgynfi/grab_ethtoken_info). Thanks!)
-
+如果此项目能帮助到你，就请你给[一颗星](https://github.com/chenxing640/grab_ethtoken_info)。谢谢！(If this project can help you, please give it [a star](https://github.com/chenxing640/grab_ethtoken_info). Thanks!)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%20|%20Android-blue.svg?style=flat)](https://pub.flutter-io.cn)&nbsp;
-
-
-## Group(ID:155353383) 
-
-<div align=left>
-&emsp; <img src="https://github.com/dgynfi/grab_ethtoken_info/raw/master/images/qq155353383.jpg" width="30%" />
-</div>
-
 
 ## grab_ethtoken_info
 
 - This Flutter project is developed with Dart language based on flutter_macos_v0.5.8-dev. 
 - 从以太坊区块链 (Ethereum Blockchain) etherscan 上抓取任意一个钱包地址的所有token信息 (Address, Name, Balance, Symbol, Value)，并编写界面进行展示。
 
+## Group(ID:155353383) 
+
+<div align=left>
+&emsp; <img src="https://github.com/chenxing640/grab_ethtoken_info/raw/master/images/qq155353383.jpg" width="30%" />
+</div>
 
 ## Getting Started
 
-For help getting started with Flutter, view our online <br />
+For help getting started with Flutter, view our online <br>
 
 - [Flutter中文网](https://flutterchina.club) 
   - [Flutter文档](https://flutterchina.club/docs/)
@@ -46,30 +42,28 @@ For help getting started with Flutter, view our online <br />
 
 - [DartPad](https://dartpad.dartlang.org/) - 使用 DartPad 来体验 Dart 语言的更多特性。
 
-
 ## Structure
 
 - Network
-  - [http_utils](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/network/http_utils.dart) - A HTTP tool to receive data, download and upload files, etc.
+  - [http_utils](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/network/http_utils.dart) - A HTTP tool to receive data, download and upload files, etc.
 
 - DB
-  - [EthTokenholdingsProvider](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/db/EthTokenholdingsProvider.dart)
-  - [EthTokensProvider](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/db/EthTokensProvider.dart)
+  - [EthTokenholdingsProvider](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/db/EthTokenholdingsProvider.dart)
+  - [EthTokensProvider](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/db/EthTokensProvider.dart)
 
 - Utils
-  - [HtmlConverter](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/HtmlConverter.dart) - Converts a paragraph of HTML text into simple standard html.
-  - [ExtendedUtility](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/ExtendedUtility.dart) - Extended Utilities.
+  - [HtmlConverter](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/eth_token_grab/HtmlConverter.dart) - Converts a paragraph of HTML text into simple standard html.
+  - [ExtendedUtility](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/eth_token_grab/ExtendedUtility.dart) - Extended Utilities.
 
 - ETH Token
-  - [AppConfigurator](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/AppConfigurator.dart)
-  - [EthTokensDisplay](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokensDisplay.dart) - Display UI for tokens.
-  - [EthAddNewTokens](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthAddNewTokens.dart) - Display UI for Adding new tokens.
-  - [EthTokenholdingsDataRequest](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenholdingsDataRequest.dart) - Get data from tokenholdings service.
-  - [EthTokenholdingsModel](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenholdingsModel.dart) - A model for the token holdings.
-  - [EthTokenholdingsParser](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenholdingsParser.dart) - Parsing data that comes from tokenholdings service.
-  - [EthTokenModel](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenModel.dart)
-  - [EthTokenParser](https://github.com/dgynfi/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenParser.dart)
-
+  - [AppConfigurator](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/eth_token_grab/AppConfigurator.dart)
+  - [EthTokensDisplay](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokensDisplay.dart) - Display UI for tokens.
+  - [EthAddNewTokens](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthAddNewTokens.dart) - Display UI for Adding new tokens.
+  - [EthTokenholdingsDataRequest](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenholdingsDataRequest.dart) - Get data from tokenholdings service.
+  - [EthTokenholdingsModel](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenholdingsModel.dart) - A model for the token holdings.
+  - [EthTokenholdingsParser](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenholdingsParser.dart) - Parsing data that comes from tokenholdings service.
+  - [EthTokenModel](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenModel.dart)
+  - [EthTokenParser](https://github.com/chenxing640/grab_ethtoken_info/blob/master/lib/eth_token_grab/EthTokenParser.dart)
 
 ## Display UI
 
@@ -225,4 +219,4 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ## Feedback is welcome
 
-If you notice any issue, got stuck or just want to chat feel free to create an issue. I will be happy to help you.
+If you notice any issue, got stuck to create an issue. I will be happy to help you.
