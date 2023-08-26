@@ -1,12 +1,12 @@
-如果此项目能帮助到你，就请你给[一颗星](https://github.com/chenxing640/grab_ethtoken_info)。谢谢！(If this project can help you, please give it [a star](https://github.com/chenxing640/grab_ethtoken_info). Thanks!)
+如果此项目能帮助到你，就请你给[一颗星](https://github.com/chenxing640/grab_ethtoken_info)，谢谢！(If this project can help you, please give it [a star](https://github.com/chenxing640/grab_ethtoken_info), thanks!)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%20|%20Android-blue.svg?style=flat)](https://pub.flutter-io.cn)&nbsp;
 
 ## grab_ethtoken_info
 
-- This Flutter project is developed with Dart language based on flutter_macos_v0.5.8-dev. 
-- 从以太坊区块链 (Ethereum Blockchain) etherscan 上抓取任意一个钱包地址的所有token信息 (Address, Name, Balance, Symbol, Value)，并编写界面进行展示。
+<!-- This Flutter project is developed with Dart language based on flutter_macos_v0.5.8-dev.  -->
+从以太坊区块链 (Ethereum Blockchain) etherscan 上抓取任意一个钱包地址的所有token信息 (Address, Name, Balance, Symbol, Value)，并编写界面进行展示。
 
 ## Group(ID:155353383) 
 
