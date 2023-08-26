@@ -1,4 +1,4 @@
-如果此项目能帮助到你，就请你给[一颗星](https://github.com/chenxing640/grab_ethtoken_info)，谢谢！(If this project can help you, please give it [a star](https://github.com/chenxing640/grab_ethtoken_info), thanks!)
+如果此项目能帮助到你，就请你给[一颗星](https://github.com/chenxing640/grab_ethtoken_info)，谢谢！(If this project can help you, please give it a [star](https://github.com/chenxing640/grab_ethtoken_info), thanks!)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%20|%20Android-blue.svg?style=flat)](https://pub.flutter-io.cn)&nbsp;
