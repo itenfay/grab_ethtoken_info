@@ -7,15 +7,21 @@
 
 从以太坊区块链 (Ethereum Blockchain) etherscan 上抓取任意一个钱包地址的所有token信息 (Address, Name, Balance, Symbol, Value)，并编写界面进行展示。
 
-## Other Project
-
-- [dart_crypto](https://github.com/chenxing640/dart_crypto)
-
 ## Group(ID:155353383) 
 
 <div align=left>
 &emsp; <img src="https://github.com/chenxing640/grab_ethtoken_info/raw/master/images/qq155353383.jpg" width="30%" />
 </div>
+
+## Recommendation
+
+* [Dart crypto](https://github.com/chenxing640/dart_crypto)
+
+## Getting Started
+
+For help getting started with Flutter, view the online <br />
+
+* [Flutter Hub](https://github.com/chenxing640/Awesome/blob/master/Flutter.md)
 
 ## Structure
 
@@ -194,4 +200,4 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ## Feedback is welcome
 
-If you notice any issue, got stuck to create an issue. I will be happy to help you.
+If you notice any issue, please create an issue. I will be happy to help you.
