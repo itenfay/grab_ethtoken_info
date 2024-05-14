@@ -7,6 +7,10 @@
 
 从以太坊区块链 (Ethereum Blockchain) etherscan 上抓取任意一个钱包地址的所有token信息 (Address, Name, Balance, Symbol, Value)，并编写界面进行展示。
 
+## Other Project
+
+- [dart_crypto](https://github.com/chenxing640/dart_crypto)
+
 ## Group(ID:155353383) 
 
 <div align=left>
